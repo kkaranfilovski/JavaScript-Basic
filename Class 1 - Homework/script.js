@@ -3,7 +3,7 @@
 console.log("========== Area of a circle ==========");
 
 let radius = 5;
-let circleArea = 2 * radius * Math.PI;
+let circleArea = radius * radius * Math.PI;
 
 console.log("The radius of the circle is: ", radius);
 console.log("The area of the circle is: ", circleArea)
